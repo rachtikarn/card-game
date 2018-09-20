@@ -37,7 +37,7 @@ class WordCard extends Component {
     { Array.from(this.state.chars).map((c, i) => <CharacterCard value = {c} key = {i} attempt={this.state.attempt}
      activationHandler = {this.activationHandler}/>)}
      <p>ครั้งที่ : {this.state.attempt}</p>
-     <p>{this.state.completed? "WINNER!!" : ""}</p>
+     <p>{this.state.completed? "YOUR WINNER!!" : ""}</p>
      </div>
      )
      }
